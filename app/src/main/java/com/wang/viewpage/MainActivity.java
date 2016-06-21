@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         if (pager == null) return;
         // pageCount设置红缓存的页面数
         pager.setOffscreenPageLimit(3);
-        // 设置2张图之前的间距。
+        // 设置2个item之前的间距。
         pager.setPageMargin(20);
         list = new ArrayList<>();
         String[] strings = {"123", "456", "789", "147", "258", "369"};
